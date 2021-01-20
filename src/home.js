@@ -6,9 +6,17 @@ class Home extends Component {
         return (
             <div>
                 Home
-                <Link to="/createableMultiSelect" >
-                    Creatable Multi Select
-                </Link>
+                <div>
+                    <Link to="/createableMultiSelect" >
+                        Creatable Multi Select
+                    </Link>
+                </div>
+                <div>
+                    <Link to="/addMoreFields" >
+                        Add More Fields
+                    </Link>
+                </div>
+
             </div>
         )
     }
