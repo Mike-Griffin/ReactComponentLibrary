@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import TextField from '@material-ui/core/TextField'
-import { Select } from '@material-ui/core'
+import  CreateableSingleSelect from './creatable_single_select'
 
 class AddMoreFields extends Component {
     constructor(props) {
@@ -27,8 +27,7 @@ class AddMoreFields extends Component {
                                     label="Quantity"
                                     value={recipeLine.quantity}
                                 />
-                                <Select
-                                />
+                                <CreateableSingleSelect />
                             </div>
                         ))}
 

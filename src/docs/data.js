@@ -5,4 +5,9 @@ export const tags = [
 
   ];
   
+export const quantityMeasures = [
+  { value: 'cups', label: 'Cups'},
+  { value: 'tablespoons', label: 'Table Spoons' },
+  { value: 'units', label: 'Units' },
+]
   
