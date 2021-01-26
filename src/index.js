@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import Home from './home'
 import CreateableMultiSelect from './components/createable_multiselect'
+import CreateableSingleSelect from './components/creatable_single_select'
 import AddMoreFields from './components/add_more_fields'
 
 ReactDOM.render(
@@ -11,6 +12,7 @@ ReactDOM.render(
         <div>
             <Switch>
               <Route path="/addMoreFields" component={AddMoreFields} />
+              <Route path="/createableSingleSelect" component={CreateableSingleSelect} />
               <Route path="/createableMultiSelect" component={CreateableMultiSelect} />
               <Route path="/" component={Home} />
             </Switch>

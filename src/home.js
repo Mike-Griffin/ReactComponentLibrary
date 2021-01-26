@@ -12,6 +12,11 @@ class Home extends Component {
                     </Link>
                 </div>
                 <div>
+                    <Link to="/createableSingleSelect" >
+                        Creatable Single Select
+                    </Link>
+                </div>
+                <div>
                     <Link to="/addMoreFields" >
                         Add More Fields
                     </Link>
